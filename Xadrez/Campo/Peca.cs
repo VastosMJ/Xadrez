@@ -27,6 +27,10 @@ namespace Xadrez.Campo
         {
             QteMovimentos++;
         }
+        public void DecrementarQteMovimento()
+        {
+            QteMovimentos--;
+        }
 
         public abstract bool[,] MovimentosPossiveis();
 
