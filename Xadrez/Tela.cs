@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Xadrez.Tabuleiro;
+using Xadrez.Campo;
 
 namespace Xadrez
 {
     class Tela
     {
-        public static void ImprimirTabuleiro(Xadrez.Tabuleiro.Tabuleiro tab)
+        public static void ImprimirTabuleiro(Tabuleiro tab)
         {
             for(int i = 0; i < tab.Linhas; i++)
             {
