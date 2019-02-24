@@ -22,5 +22,10 @@ namespace Xadrez.Campo
             QteMovimentos = 0;
             Tab = tab;
         }
+        public void IcrementarQteMovimento()
+        {
+            QteMovimentos++;
+        }
+
     }
 }

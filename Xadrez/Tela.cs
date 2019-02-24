@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using Xadrez.Campo;
+using Xadrez.Xadrez;
 
 namespace Xadrez
 {
@@ -42,6 +43,14 @@ namespace Xadrez
                 Console.ForegroundColor = aux;
             }
                 
+        }
+
+        public static PosicaoXadrez LerPosicaoXadrez()
+        {
+            string s = Console.ReadLine();
+            char coluna = s[0];
+            int linha = int.Parse(s[1] + "");
+            return new PosicaoXadrez(coluna, linha);
         }
 
     }

@@ -25,7 +25,7 @@ namespace Xadrez.Xadrez
             return "" + Coluna + Linha;
         }
 
-        public Posicao ToPositcao()
+        public Posicao ToPosicao()
         {
             return new Posicao(8 - Linha, Coluna - 'a');
         }
